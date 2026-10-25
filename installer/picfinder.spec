@@ -41,6 +41,8 @@ datas = [(str(DICTIONARY / name), "dictionary") for name in DICTIONARY_FILES]
 datas.append((str(DICTIONARY / "zh"), "dictionary/zh"))
 datas.append((str(ASSETS / "picfinder.ico"), "assets"))
 datas.append((str(ASSETS / "picfinder.png"), "assets"))
+datas.append((str(PROJECT / "LICENSE"), "."))
+datas.append((str(PROJECT / "THIRD_PARTY_NOTICES.md"), "."))
 
 # 明确排除用不到的东西。只排 Python 侧的开发依赖，不排 Qt 模块。
 #

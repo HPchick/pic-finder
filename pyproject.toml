@@ -1,10 +1,12 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "picfinder"
 version = "0.1.7"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md", "work/dictionary/zh/LICENSE"]
 description = "面向画师的参考图检索与归档工具"
 requires-python = ">=3.11"
 dependencies = [

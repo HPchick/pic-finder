@@ -31,7 +31,7 @@ VSVersionInfo(
             StringStruct('FileDescription', 'PIC FINDER 参考图检索与归档工具'),
             StringStruct('FileVersion', '0.1.7'),
             StringStruct('InternalName', 'picfinder'),
-            StringStruct('LegalCopyright', '仅供个人使用'),
+            StringStruct('LegalCopyright', 'Copyright (c) 2026 HPchick. MIT License.'),
             StringStruct('OriginalFilename', 'PIC FINDER.exe'),
             StringStruct('ProductName', 'PIC FINDER'),
             StringStruct('ProductVersion', '0.1.7')

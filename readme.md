@@ -127,6 +127,11 @@ python tests\audit_regressions.py
 
 开始编码前必须读可行性调研，因为它记录了哪些做法会违反网站服务条款。
 
+## 许可证
+
+本项目采用 [MIT 许可证](LICENSE)。Copyright (c) 2026 HPchick。
+第三方词表与依赖保留各自许可，详见[第三方资源声明](THIRD_PARTY_NOTICES.md)。
+
 ## 修改记录
 
 | 版本 | 日期 | 修改内容 |
