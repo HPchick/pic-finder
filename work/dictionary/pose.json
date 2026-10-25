@@ -1,0 +1,615 @@
+{
+  "schema_version": 1,
+  "category": "pose",
+  "dictionary_version": "2026.10.06",
+  "generated_by": "manual",
+  "reviewed": false,
+  "source_tag_file": "tags-danbooru-general-5000.json",
+  "entries": [
+    {
+      "term": "站姿",
+      "tags": [
+        {
+          "tag": "standing",
+          "weight": 1.0
+        }
+      ],
+      "exclude": [
+        "sitting"
+      ],
+      "notes": "站立。"
+    },
+    {
+      "term": "坐姿",
+      "tags": [
+        {
+          "tag": "sitting",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "坐着",
+        "坐"
+      ],
+      "exclude": [
+        "standing"
+      ]
+    },
+    {
+      "term": "跪姿",
+      "tags": [
+        {
+          "tag": "kneeling",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "跪着",
+        "跪"
+      ]
+    },
+    {
+      "term": "躺",
+      "tags": [
+        {
+          "tag": "lying",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "躺下",
+        "卧"
+      ]
+    },
+    {
+      "term": "蹲",
+      "tags": [
+        {
+          "tag": "squatting",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "蹲下",
+        "蹲姿"
+      ]
+    },
+    {
+      "term": "走",
+      "tags": [
+        {
+          "tag": "walking",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "行走",
+        "走路"
+      ]
+    },
+    {
+      "term": "跑",
+      "tags": [
+        {
+          "tag": "running",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "奔跑",
+        "跑步"
+      ]
+    },
+    {
+      "term": "跳",
+      "tags": [
+        {
+          "tag": "jumping",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "跳跃",
+        "跳起"
+      ]
+    },
+    {
+      "term": "伸展",
+      "tags": [
+        {
+          "tag": "stretching",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "拉伸",
+        "伸懒腰"
+      ]
+    },
+    {
+      "term": "伸向",
+      "tags": [
+        {
+          "tag": "reaching",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "伸手"
+      ]
+    },
+    {
+      "term": "前倾",
+      "tags": [
+        {
+          "tag": "leaning_forward",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "身体前倾"
+      ]
+    },
+    {
+      "term": "后仰",
+      "tags": [
+        {
+          "tag": "leaning_back",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "身体后仰"
+      ]
+    },
+    {
+      "term": "单腿站",
+      "tags": [
+        {
+          "tag": "standing_on_one_leg",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "单脚站"
+      ]
+    },
+    {
+      "term": "双手叉腰",
+      "tags": [
+        {
+          "tag": "hands_on_own_hips",
+          "weight": 1.0
+        },
+        {
+          "tag": "hand_on_own_hip",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "叉腰"
+      ]
+    },
+    {
+      "term": "单手叉腰",
+      "tags": [
+        {
+          "tag": "hand_on_own_hip",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "双手举起",
+      "tags": [
+        {
+          "tag": "hands_up",
+          "weight": 1.0
+        },
+        {
+          "tag": "arms_up",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "举手",
+        "举手投降"
+      ]
+    },
+    {
+      "term": "单手举起",
+      "tags": [
+        {
+          "tag": "hand_up",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "单手举高"
+      ]
+    },
+    {
+      "term": "手放头后",
+      "tags": [
+        {
+          "tag": "arms_behind_head",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "双手抱头"
+      ]
+    },
+    {
+      "term": "手在背后",
+      "tags": [
+        {
+          "tag": "arms_behind_back",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "背手",
+        "双手背后"
+      ]
+    },
+    {
+      "term": "双手垂放",
+      "tags": [
+        {
+          "tag": "arms_at_sides",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "双臂下垂"
+      ]
+    },
+    {
+      "term": "手插口袋",
+      "tags": [
+        {
+          "tag": "hands_in_pockets",
+          "weight": 1.0
+        },
+        {
+          "tag": "hand_in_pocket",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "手插兜"
+      ]
+    },
+    {
+      "term": "双腿分开",
+      "tags": [
+        {
+          "tag": "legs_apart",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "分腿"
+      ]
+    },
+    {
+      "term": "双腿并拢",
+      "tags": [
+        {
+          "tag": "legs_together",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "并腿"
+      ]
+    },
+    {
+      "term": "抬腿",
+      "tags": [
+        {
+          "tag": "legs_up",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "摸脸",
+      "tags": [
+        {
+          "tag": "hand_on_own_face",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "手贴脸"
+      ]
+    },
+    {
+      "term": "托腮",
+      "tags": [
+        {
+          "tag": "hand_on_own_cheek",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "手托脸"
+      ]
+    },
+    {
+      "term": "摸下巴",
+      "tags": [
+        {
+          "tag": "hand_on_own_chin",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "扶额",
+      "tags": [
+        {
+          "tag": "hand_on_own_head",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "手放头上"
+      ]
+    },
+    {
+      "term": "摸头发",
+      "tags": [
+        {
+          "tag": "hand_in_own_hair",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "拨头发"
+      ]
+    },
+    {
+      "term": "手放胸前",
+      "tags": [
+        {
+          "tag": "hand_on_own_chest",
+          "weight": 1.0
+        },
+        {
+          "tag": "hands_on_own_chest",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "捂胸"
+      ]
+    },
+    {
+      "term": "手放大腿",
+      "tags": [
+        {
+          "tag": "hand_on_own_thigh",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "手放手臂",
+      "tags": [
+        {
+          "tag": "hand_on_own_arm",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "歪头",
+      "tags": [
+        {
+          "tag": "head_tilt",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "头倾斜"
+      ]
+    },
+    {
+      "term": "转头",
+      "tags": [
+        {
+          "tag": "turning_head",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "头转向"
+      ]
+    },
+    {
+      "term": "正视",
+      "tags": [
+        {
+          "tag": "facing_viewer",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "正面朝向"
+      ]
+    },
+    {
+      "term": "背对",
+      "tags": [
+        {
+          "tag": "facing_away",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "背对镜头"
+      ]
+    },
+    {
+      "term": "看向观者",
+      "tags": [
+        {
+          "tag": "looking_at_viewer",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "看着镜头"
+      ]
+    },
+    {
+      "term": "回眸",
+      "tags": [
+        {
+          "tag": "looking_back",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "回头看"
+      ]
+    },
+    {
+      "term": "看向别处",
+      "tags": [
+        {
+          "tag": "looking_away",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "移开视线"
+      ]
+    },
+    {
+      "term": "看向旁边",
+      "tags": [
+        {
+          "tag": "looking_to_the_side",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "侧目"
+      ]
+    },
+    {
+      "term": "低头",
+      "tags": [
+        {
+          "tag": "looking_down",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "俯视下方"
+      ]
+    },
+    {
+      "term": "抬头",
+      "tags": [
+        {
+          "tag": "looking_up",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "仰视上方"
+      ]
+    },
+    {
+      "term": "眺望",
+      "tags": [
+        {
+          "tag": "looking_afar",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "遥望",
+        "远望"
+      ]
+    },
+    {
+      "term": "平视",
+      "tags": [
+        {
+          "tag": "looking_ahead",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "侧视",
+      "tags": [
+        {
+          "tag": "from_side",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "侧面视角",
+        "侧身",
+        "侧身站"
+      ]
+    },
+    {
+      "term": "背视",
+      "tags": [
+        {
+          "tag": "from_behind",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "背面视角"
+      ]
+    },
+    {
+      "term": "俯视",
+      "tags": [
+        {
+          "tag": "from_above",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "高角度",
+        "由上往下"
+      ]
+    },
+    {
+      "term": "仰视",
+      "tags": [
+        {
+          "tag": "from_below",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "低角度",
+        "由下往上"
+      ]
+    },
+    {
+      "term": "头超出画面",
+      "tags": [
+        {
+          "tag": "head_out_of_frame",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "头部裁切"
+      ]
+    }
+  ]
+}

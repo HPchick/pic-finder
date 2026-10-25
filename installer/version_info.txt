@@ -1,0 +1,44 @@
+# PyInstaller 的版本资源。
+#
+# 作用有两个。一是让 exe 的属性页显示名称、版本与版权，看上去像个正式程序。
+# 二是主用户或开发者在虚拟机上核对装的是哪一版时，可以直接右键看属性，
+# 不必先去翻日志。
+#
+# 格式是 PyInstaller 规定的，本质是一个 Python 字面量。改版本号时，
+# 这里的四处 filevers、prodvers、FileVersion、ProductVersion 要一起改，
+# 并与 src/picfinder/__init__.py 里的 __version__ 保持一致。
+#
+# 语言块 080404B0 表示简体中文加 Unicode 代码页。
+
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(0, 1, 7, 0),
+    prodvers=(0, 1, 7, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo(
+      [
+        StringTable(
+          '080404B0',
+          [
+            StringStruct('CompanyName', 'PIC FINDER 项目'),
+            StringStruct('FileDescription', 'PIC FINDER 参考图检索与归档工具'),
+            StringStruct('FileVersion', '0.1.7'),
+            StringStruct('InternalName', 'picfinder'),
+            StringStruct('LegalCopyright', '仅供个人使用'),
+            StringStruct('OriginalFilename', 'PIC FINDER.exe'),
+            StringStruct('ProductName', 'PIC FINDER'),
+            StringStruct('ProductVersion', '0.1.7')
+          ]
+        )
+      ]
+    ),
+    VarFileInfo([VarStruct('Translation', [2052, 1200])])
+  ]
+)

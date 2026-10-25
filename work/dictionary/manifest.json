@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "dictionary_version": "2026.10.06",
+  "generated_at": "2026-10-06T17:16:56Z",
+  "generated_by": "build_dictionary.py",
+  "source_tag_file": "tags-danbooru-general-5000.json",
+  "source_tag_fetched_at": "2026-10-06T17:04:08Z",
+  "reviewed": false,
+  "files": [
+    {
+      "file": "common.json",
+      "category": "common",
+      "entries": 14,
+      "tag_mappings": 14
+    },
+    {
+      "file": "pose.json",
+      "category": "pose",
+      "entries": 49,
+      "tag_mappings": 53
+    },
+    {
+      "file": "outfit.json",
+      "category": "outfit",
+      "entries": 106,
+      "tag_mappings": 108
+    },
+    {
+      "file": "prop.json",
+      "category": "prop",
+      "entries": 56,
+      "tag_mappings": 56
+    },
+    {
+      "file": "scene.json",
+      "category": "scene",
+      "entries": 35,
+      "tag_mappings": 35
+    }
+  ]
+}

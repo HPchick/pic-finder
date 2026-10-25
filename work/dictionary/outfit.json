@@ -1,0 +1,1036 @@
+{
+  "schema_version": 1,
+  "category": "outfit",
+  "dictionary_version": "2026.10.06",
+  "generated_by": "manual",
+  "reviewed": false,
+  "source_tag_file": "tags-danbooru-general-5000.json",
+  "entries": [
+    {
+      "term": "衬衫",
+      "tags": [
+        {
+          "tag": "shirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "白衬衫",
+      "tags": [
+        {
+          "tag": "white_shirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "黑衬衫",
+      "tags": [
+        {
+          "tag": "black_shirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "T恤",
+      "tags": [
+        {
+          "tag": "t-shirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "开襟衬衫",
+      "tags": [
+        {
+          "tag": "open_shirt",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "衬衫敞开"
+      ]
+    },
+    {
+      "term": "有领衬衫",
+      "tags": [
+        {
+          "tag": "collared_shirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "无袖衬衫",
+      "tags": [
+        {
+          "tag": "sleeveless_shirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "露肩上衣",
+      "tags": [
+        {
+          "tag": "off-shoulder_shirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "短上衣",
+      "tags": [
+        {
+          "tag": "cropped_shirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "长袖",
+      "tags": [
+        {
+          "tag": "long_sleeves",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "短袖",
+      "tags": [
+        {
+          "tag": "short_sleeves",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "泡泡袖",
+      "tags": [
+        {
+          "tag": "puffy_sleeves",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "蓬蓬袖"
+      ]
+    },
+    {
+      "term": "宽袖",
+      "tags": [
+        {
+          "tag": "wide_sleeves",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "大袖子"
+      ]
+    },
+    {
+      "term": "无袖",
+      "tags": [
+        {
+          "tag": "sleeveless_dress",
+          "weight": 1.0
+        }
+      ],
+      "notes": "同时含无袖连衣裙，需人工确认切分"
+    },
+    {
+      "term": "袖子盖过手腕",
+      "tags": [
+        {
+          "tag": "sleeves_past_wrists",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "长袖遮手"
+      ]
+    },
+    {
+      "term": "泡泡长袖",
+      "tags": [
+        {
+          "tag": "puffy_long_sleeves",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "卷起袖子",
+      "tags": [
+        {
+          "tag": "sleeves_rolled_up",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "挽袖"
+      ]
+    },
+    {
+      "term": "裙子",
+      "tags": [
+        {
+          "tag": "skirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "百褶裙",
+      "tags": [
+        {
+          "tag": "pleated_skirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "迷你裙",
+      "tags": [
+        {
+          "tag": "miniskirt",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "超短裙"
+      ]
+    },
+    {
+      "term": "长裙",
+      "tags": [
+        {
+          "tag": "long_skirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "黑裙",
+      "tags": [
+        {
+          "tag": "black_skirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "红裙",
+      "tags": [
+        {
+          "tag": "red_skirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "蓝裙",
+      "tags": [
+        {
+          "tag": "blue_skirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "白色连衣裙",
+      "tags": [
+        {
+          "tag": "white_dress",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "黑色连衣裙",
+      "tags": [
+        {
+          "tag": "black_dress",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "连衣裙",
+      "tags": [
+        {
+          "tag": "dress",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "洋装"
+      ]
+    },
+    {
+      "term": "长裙洋装",
+      "tags": [
+        {
+          "tag": "long_dress",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "短洋装",
+      "tags": [
+        {
+          "tag": "short_dress",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "褶边洋装",
+      "tags": [
+        {
+          "tag": "frilled_dress",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "荷叶边裙"
+      ]
+    },
+    {
+      "term": "露肩洋装",
+      "tags": [
+        {
+          "tag": "off-shoulder_dress",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "裤子",
+      "tags": [
+        {
+          "tag": "pants",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "短裤",
+      "tags": [
+        {
+          "tag": "shorts",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "牛仔短裤",
+      "tags": [
+        {
+          "tag": "denim_shorts",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "运动短裤",
+      "tags": [
+        {
+          "tag": "bike_shorts",
+          "weight": 1.0
+        }
+      ],
+      "notes": "紧身骑行短裤"
+    },
+    {
+      "term": "外套",
+      "tags": [
+        {
+          "tag": "jacket",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "黑夹克",
+      "tags": [
+        {
+          "tag": "black_jacket",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "敞开的外套",
+      "tags": [
+        {
+          "tag": "open_jacket",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "外套敞开"
+      ]
+    },
+    {
+      "term": "外套披肩",
+      "tags": [
+        {
+          "tag": "jacket_on_shoulders",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "披着外套"
+      ]
+    },
+    {
+      "term": "大衣",
+      "tags": [
+        {
+          "tag": "coat",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "实验袍",
+      "tags": [
+        {
+          "tag": "lab_coat",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "白大褂"
+      ]
+    },
+    {
+      "term": "斗篷",
+      "tags": [
+        {
+          "tag": "cloak",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "披风"
+      ]
+    },
+    {
+      "term": "连帽斗篷",
+      "tags": [
+        {
+          "tag": "hooded_cloak",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "披肩斗篷",
+      "tags": [
+        {
+          "tag": "cape",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "短披风"
+      ]
+    },
+    {
+      "term": "长袍",
+      "tags": [
+        {
+          "tag": "robe",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "和服",
+      "tags": [
+        {
+          "tag": "kimono",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "白和服",
+      "tags": [
+        {
+          "tag": "white_kimono",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "水手服",
+      "tags": [
+        {
+          "tag": "sailor_dress",
+          "weight": 1.0
+        },
+        {
+          "tag": "sailor_shirt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "校服",
+      "tags": [
+        {
+          "tag": "school_uniform",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "军装",
+      "tags": [
+        {
+          "tag": "military_uniform",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "女仆装",
+      "tags": [
+        {
+          "tag": "maid_apron",
+          "weight": 1.0
+        },
+        {
+          "tag": "maid_headdress",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "围裙",
+      "tags": [
+        {
+          "tag": "apron",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "盔甲",
+      "tags": [
+        {
+          "tag": "armor",
+          "weight": 1.0
+        }
+      ],
+      "notes": "既可视为穿着也可视为道具，已同时归入两类"
+    },
+    {
+      "term": "日本铠甲",
+      "tags": [
+        {
+          "tag": "japanese_armor",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "护肩",
+      "tags": [
+        {
+          "tag": "shoulder_armor",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "泳装",
+      "tags": [
+        {
+          "tag": "swimsuit",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "连体泳装",
+      "tags": [
+        {
+          "tag": "one-piece_swimsuit",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "竞赛泳装",
+      "tags": [
+        {
+          "tag": "competition_swimsuit",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "校服泳装",
+      "tags": [
+        {
+          "tag": "school_swimsuit",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "比基尼",
+      "tags": [
+        {
+          "tag": "bikini",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "内衣",
+      "tags": [
+        {
+          "tag": "lingerie",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "手套",
+      "tags": [
+        {
+          "tag": "gloves",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "黑手套",
+      "tags": [
+        {
+          "tag": "black_gloves",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "白手套",
+      "tags": [
+        {
+          "tag": "white_gloves",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "长手套",
+      "tags": [
+        {
+          "tag": "elbow_gloves",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "过肘手套"
+      ]
+    },
+    {
+      "term": "露指手套",
+      "tags": [
+        {
+          "tag": "fingerless_gloves",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "毛手套",
+      "tags": [
+        {
+          "tag": "paw_gloves",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "兽爪手套"
+      ]
+    },
+    {
+      "term": "过膝袜",
+      "tags": [
+        {
+          "tag": "thighhighs",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "黑过膝袜",
+      "tags": [
+        {
+          "tag": "black_thighhighs",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "白过膝袜",
+      "tags": [
+        {
+          "tag": "white_thighhighs",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "条纹过膝袜",
+      "tags": [
+        {
+          "tag": "striped_thighhighs",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "网袜",
+      "tags": [
+        {
+          "tag": "fishnet_thighhighs",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "渔网袜"
+      ]
+    },
+    {
+      "term": "破洞袜",
+      "tags": [
+        {
+          "tag": "torn_thighhighs",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "袜子",
+      "tags": [
+        {
+          "tag": "socks",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "白袜",
+      "tags": [
+        {
+          "tag": "white_socks",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "短袜",
+      "tags": [
+        {
+          "tag": "loose_socks",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "松垮短袜"
+      ]
+    },
+    {
+      "term": "鞋",
+      "tags": [
+        {
+          "tag": "shoes",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "靴子",
+      "tags": [
+        {
+          "tag": "boots",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "长靴",
+      "tags": [
+        {
+          "tag": "thigh_boots",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "过膝靴"
+      ]
+    },
+    {
+      "term": "及膝靴",
+      "tags": [
+        {
+          "tag": "knee_boots",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "短靴",
+      "tags": [
+        {
+          "tag": "ankle_boots",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "高跟鞋",
+      "tags": [
+        {
+          "tag": "high_heel_boots",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "赤脚",
+      "tags": [
+        {
+          "tag": "no_shoes",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "光脚",
+        "不穿鞋"
+      ]
+    },
+    {
+      "term": "帽子",
+      "tags": [
+        {
+          "tag": "hat",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "黑帽子",
+      "tags": [
+        {
+          "tag": "black_hat",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "白帽子",
+      "tags": [
+        {
+          "tag": "white_hat",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "女巫帽",
+      "tags": [
+        {
+          "tag": "witch_hat",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "礼帽",
+      "tags": [
+        {
+          "tag": "top_hat",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "棒球帽",
+      "tags": [
+        {
+          "tag": "baseball_cap",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "军帽",
+      "tags": [
+        {
+          "tag": "military_hat",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "草帽",
+      "tags": [
+        {
+          "tag": "straw_hat",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "兜帽",
+      "tags": [
+        {
+          "tag": "hooded_jacket",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "连帽外套"
+      ]
+    },
+    {
+      "term": "头盔",
+      "tags": [
+        {
+          "tag": "helmet",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "腰带",
+      "tags": [
+        {
+          "tag": "belt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "黑腰带",
+      "tags": [
+        {
+          "tag": "black_belt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "围巾",
+      "tags": [
+        {
+          "tag": "scarf",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "红围巾",
+      "tags": [
+        {
+          "tag": "red_scarf",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "领带",
+      "tags": [
+        {
+          "tag": "necktie",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "红领带",
+      "tags": [
+        {
+          "tag": "red_necktie",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "发带",
+      "tags": [
+        {
+          "tag": "hair_ribbon",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "蝴蝶结",
+      "tags": [
+        {
+          "tag": "ribbon",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "红蝴蝶结",
+      "tags": [
+        {
+          "tag": "red_ribbon",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "发饰",
+      "tags": [
+        {
+          "tag": "hair_ornament",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "吊带袜",
+      "tags": [
+        {
+          "tag": "garter_belt",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "婚纱",
+      "tags": [
+        {
+          "tag": "wedding_dress",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "西装外套",
+      "tags": [
+        {
+          "tag": "suit_jacket",
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

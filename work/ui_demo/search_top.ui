@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  检索页上半部分的示例界面，供 Qt Designer 编辑。
+
+  这不是程序真正在用的界面，而是一份「草稿」：控件、文案、层级都照着
+  src/picfinder/ui/main_window.py 里 SearchPage 的前五行摆出来，方便在
+  Designer 里看清楚结构、拖一拖看看效果。
+
+  改完想接进程序，需要把改动落到 main_window.py。或者按 work/ui_demo/readme.md
+  里说的，改用 .ui 驱动界面。
+-->
+<ui version="4.0">
+ <class>SearchTopDemo</class>
+ <widget class="QWidget" name="SearchTopDemo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>230</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>检索页上半部分（示例）</string>
+  </property>
+  <layout class="QVBoxLayout" name="rootLayout">
+   <property name="spacing">
+    <number>6</number>
+   </property>
+   <item>
+    <layout class="QHBoxLayout" name="categoryRow">
+     <item>
+      <widget class="QLabel" name="categoryLabel">
+       <property name="text">
+        <string>类别：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="categoryPose">
+       <property name="text">
+        <string>人体姿势</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="categoryOutfit">
+       <property name="text">
+        <string>服装</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="categoryProp">
+       <property name="text">
+        <string>道具</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="categoryScene">
+       <property name="text">
+        <string>场景建筑</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="categorySpacer">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="r18Box">
+       <property name="text">
+        <string>包含 R18 内容</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="hintLabel">
+     <property name="styleSheet">
+      <string notr="true">color: #666; padding: 8px;</string>
+     </property>
+     <property name="text">
+      <string>这里显示类别说明或状态提示，运行时由代码填文字。</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="inputRow">
+     <item>
+      <widget class="QLineEdit" name="inputBox">
+       <property name="placeholderText">
+        <string>描述你需要的参考，例如：站姿 侧视 回眸</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="translateButton">
+       <property name="text">
+        <string>翻译</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="tagGroup">
+     <property name="title">
+      <string>翻译结果</string>
+     </property>
+     <layout class="QVBoxLayout" name="tagLayout">
+      <property name="spacing">
+       <number>4</number>
+      </property>
+      <item>
+       <widget class="QScrollArea" name="tagScroll">
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>190</height>
+         </size>
+        </property>
+        <widget class="QWidget" name="tagContainer">
+         <layout class="QGridLayout" name="tagGrid">
+          <property name="leftMargin">
+           <number>4</number>
+          </property>
+          <property name="topMargin">
+           <number>4</number>
+          </property>
+          <property name="rightMargin">
+           <number>4</number>
+          </property>
+          <property name="bottomMargin">
+           <number>4</number>
+          </property>
+          <property name="horizontalSpacing">
+           <number>6</number>
+          </property>
+          <property name="verticalSpacing">
+           <number>6</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="tagStanding">
+            <property name="styleSheet">
+             <string notr="true">QPushButton { background-color: #dff2df; }</string>
+            </property>
+            <property name="text">
+             <string>① standing　✕</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="tagFromSide">
+            <property name="styleSheet">
+             <string notr="true">QPushButton { background-color: #dff2df; }</string>
+            </property>
+            <property name="text">
+             <string>② from_side　✕</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="tagLookingBack">
+            <property name="text">
+             <string>③ looking_back　✕</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="tagSmile">
+            <property name="text">
+             <string>④ smile　✕</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="tagRankHint">
+        <property name="text">
+         <string>标签按可信度排序，序号越小越可能被采用。检索式只取前几个，点标签可以删掉不要的。</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="addRow">
+        <item>
+         <widget class="QLineEdit" name="addBox">
+          <property name="placeholderText">
+           <string>手工补充标签，例如 looking_at_viewer</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="addButton">
+          <property name="text">
+           <string>添加</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="clearButton">
+          <property name="text">
+           <string>清空</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="tagHint">
+        <property name="text">
+         <string>尚未翻译。输入中文描述后按回车或点「翻译」。</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="bottomSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

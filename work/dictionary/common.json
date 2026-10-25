@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "category": "common",
+  "dictionary_version": "2026.10.06",
+  "generated_by": "manual",
+  "reviewed": false,
+  "source_tag_file": "tags-danbooru-general-5000.json",
+  "entries": [
+    {
+      "term": "一个女孩",
+      "tags": [
+        {
+          "tag": "1girl",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "单人少女"
+      ]
+    },
+    {
+      "term": "一个男孩",
+      "tags": [
+        {
+          "tag": "1boy",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "单人",
+      "tags": [
+        {
+          "tag": "solo",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "多个女孩",
+      "tags": [
+        {
+          "tag": "multiple_girls",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "多人"
+      ]
+    },
+    {
+      "term": "长发",
+      "tags": [
+        {
+          "tag": "long_hair",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "短发",
+      "tags": [
+        {
+          "tag": "short_hair",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "黑发",
+      "tags": [
+        {
+          "tag": "black_hair",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "棕发",
+      "tags": [
+        {
+          "tag": "brown_hair",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "金发",
+      "tags": [
+        {
+          "tag": "blonde_hair",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "蓝眼",
+      "tags": [
+        {
+          "tag": "blue_eyes",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "微笑",
+      "tags": [
+        {
+          "tag": "smile",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "笑"
+      ]
+    },
+    {
+      "term": "脸红",
+      "tags": [
+        {
+          "tag": "blush",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "害羞"
+      ]
+    },
+    {
+      "term": "张嘴",
+      "tags": [
+        {
+          "tag": "open_mouth",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "闭嘴",
+      "tags": [
+        {
+          "tag": "closed_mouth",
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

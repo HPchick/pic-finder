@@ -1,0 +1,81 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Local application data, credentials and user images
+/data/
+/library/
+/portable.json
+/TEST/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+.env
+.env.*
+!.env.example
+
+# Private authentication material
+/.git-credentials
+/.ssh/
+/.aws/
+/.config/gh/
+/secrets/
+/credentials/
+/credentials.json
+/token.json
+/tokens.json
+/id_rsa
+/id_ed25519
+*.key
+*.p12
+*.pfx
+
+# Local audit backups and original conversation exports
+/.local-work/
+/.local-archive/
+/dsh-session-*/
+/audit-output/
+
+# Generated test and installer reports
+/tests/.scratch/
+/tests/.audit-scratch/
+/tests/*-report.txt
+/installer/build-report.json
+/_verify-check.txt
+
+# Developer probe output; preserve source tools and authored documents
+/work/_*/
+/work/_*.txt
+/work/_*.png
+/work/_*.json
+/work/work/
+/work/paging-*.txt
+/work/paging-*.json
+/work/paging-*.jsonl
+/work/wizard-*.txt
+/work/wizard-*.png
+/work/download-window.png
+/work/db/*-report.txt
+/work/dictionary/*-report.txt
+/work/dictionary/tag-existence-cache.json
+/work/dictionary/tags-danbooru-*.json
+/work/ui_demo/_data/
+/work/ui_demo/demo-shot.png
+/work/ui_demo/pages/*.png
+/work/ui_demo/pages/dump-report.txt
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

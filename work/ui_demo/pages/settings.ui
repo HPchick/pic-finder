@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsPage</class>
+ <widget class="QWidget" name="SettingsPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1262</width>
+    <height>833</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="qVBoxLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>6</number>
+   </property>
+   <item>
+    <widget class="QScrollArea" name="qScrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <layout class="QVBoxLayout" name="qVBoxLayout2">
+       <property name="leftMargin">
+        <number>9</number>
+       </property>
+       <property name="topMargin">
+        <number>9</number>
+       </property>
+       <property name="rightMargin">
+        <number>9</number>
+       </property>
+       <property name="bottomMargin">
+        <number>9</number>
+       </property>
+       <property name="spacing">
+        <number>10</number>
+       </property>
+       <item>
+        <widget class="QGroupBox" name="qGroupBox">
+         <property name="title">
+          <string>数据位置</string>
+         </property>
+         <layout class="QFormLayout" name="qFormLayout">
+          <property name="leftMargin">
+           <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>9</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>9</number>
+          </property>
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="qLabel">
+            <property name="text">
+             <string>数据根目录</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QWidget" name="qWidget">
+            <layout class="QHBoxLayout" name="qHBoxLayout">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>4</number>
+             </property>
+             <item>
+              <widget class="QLineEdit" name="data_root_box">
+               <property name="toolTip">
+                <string notr="true">D:\WORK\DSHWorkplace\pic-finder\work\ui_demo\_data</string>
+               </property>
+               <property name="text">
+                <string>D:\WORK\DSHWorkplace\pic-finder\work\ui_demo\_data</string>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>140</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>320</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="qPushButton">
+               <property name="text">
+                <string>选择文件夹…</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="spacer">
+               <property name="orientation">
+                <enum>Qt::Orientation::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="qLabel2">
+            <property name="text">
+             <string>图库目录</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QWidget" name="qWidget2">
+            <layout class="QHBoxLayout" name="qHBoxLayout2">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>4</number>
+             </property>
+             <item>
+              <widget class="QLineEdit" name="library_dir_box">
+               <property name="toolTip">
+                <string notr="true">D:\WORK\DSHWorkplace\pic-finder\work\ui_demo\_data\library</string>
+               </property>
+               <property name="text">
+                <string>D:\WORK\DSHWorkplace\pic-finder\work\ui_demo\_data\library</string>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>140</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>320</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="qPushButton2">
+               <property name="text">
+                <string>选择文件夹…</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <spacer name="spacer2">
+               <property name="orientation">
+                <enum>Qt::Orientation::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLabel" name="qLabel3">
+            <property name="styleSheet">
+             <string notr="true">color: #666; font-size: 11px;</string>
+            </property>
+            <property name="text">
+             <string>数据根目录放索引库、词典、缓存与日志，图库目录放下载下来的图片。两个都可以改到别处，改完立即生效。也可以把路径粘进框里再按回车。</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="qGroupBox2">
+         <property name="title">
+          <string>运行环境</string>
+         </property>
+         <layout class="QFormLayout" name="qFormLayout2">
+          <property name="leftMargin">
+           <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>9</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>9</number>
+          </property>
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="qLabel4">
+            <property name="text">
+             <string>索引数据库</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="readonly_labels_database">
+            <property name="styleSheet">
+             <string notr="true">color: #444;</string>
+            </property>
+            <property name="text">
+             <string>D:\WORK\DSHWorkplace\pic-finder\work\ui_demo\_data\data\library.db</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="qLabel5">
+            <property name="text">
+             <string>日志目录</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLabel" name="readonly_labels_logs">
+            <property name="styleSheet">
+             <string notr="true">color: #444;</string>
+            </property>
+            <property name="text">
+             <string>D:\WORK\DSHWorkplace\pic-finder\work\ui_demo\_data\data\logs</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="qLabel6">
+            <property name="text">
+             <string>目录指针</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLabel" name="readonly_labels_pointer">
+            <property name="styleSheet">
+             <string notr="true">color: #444;</string>
+            </property>
+            <property name="text">
+             <string>D:\WORK\DSHWorkplace\pic-finder\portable.json（尚未写入）</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="qLabel7">
+            <property name="text">
+             <string>模式版本</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLabel" name="readonly_labels_schema">
+            <property name="styleSheet">
+             <string notr="true">color: #444;</string>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="qGroupBox3">
+         <property name="title">
+          <string>性能与并发</string>
+         </property>
+         <layout class="QFormLayout" name="qFormLayout3">
+          <property name="leftMargin">
+           <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>9</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>9</number>
+          </property>
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="qLabel8">
+            <property name="text">
+             <string>缩略图并发</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QWidget" name="thumbnail_spin">
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>16777215</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="qLabel9">
+            <property name="text">
+             <string>下载并发</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QWidget" name="download_spin">
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>16777215</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLabel" name="qLabel10">
+            <property name="styleSheet">
+             <string notr="true">color: #666; font-size: 11px;</string>
+            </property>
+            <property name="text">
+             <string>缩略图并发管的是图墙上的小图。一次检索可能排上百张，这个数字最影响观感。下载并发管的是原图：来源站每条线仍然只有一个请求，调大它只是把排队之间的空隙填满，不会让某一个站点被压得更狠。改完立即生效——缩略图当场换线程池，下载从下一批开始。</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="qGroupBox4">
+         <property name="title">
+          <string>搜索来源</string>
+         </property>
+         <layout class="QVBoxLayout" name="qVBoxLayout3">
+          <property name="leftMargin">
+           <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>9</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>9</number>
+          </property>
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <item>
+           <widget class="QListWidget" name="site_list">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>150</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>150</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="qLabel11">
+            <property name="styleSheet">
+             <string notr="true">color: #666; font-size: 11px;</string>
+            </property>
+            <property name="text">
+             <string>默认全部未启用。启用需要用户显式操作，理由见 DD-03 与 OQ-07。这里与检索页的勾选框是同一件事，改哪边另一边都会跟着变。</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="qGroupBox5">
+         <property name="title">
+          <string>归档规则</string>
+         </property>
+         <layout class="QVBoxLayout" name="qVBoxLayout4">
+          <property name="leftMargin">
+           <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>9</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>9</number>
+          </property>
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="archive_boxes_by_source_site">
+            <property name="text">
+             <string>按来源站建目录</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="archive_boxes_by_artist">
+            <property name="text">
+             <string>按画师建目录</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="archive_boxes_by_date">
+            <property name="text">
+             <string>按日期建目录</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="archive_boxes_by_size">
+            <property name="text">
+             <string>按尺寸建目录</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="archive_boxes_by_category">
+            <property name="text">
+             <string>按类别建目录</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="qLabel12">
+            <property name="styleSheet">
+             <string notr="true">color: #666; font-size: 11px;</string>
+            </property>
+            <property name="text">
+             <string>按类别建目录默认关闭。类别归属始终记入数据库，将来启用不需要迁移数据，理由见 database-design.md 的决定一。改完对下一批下载生效。</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="qGroupBox6">
+         <property name="title">
+          <string>中文标签词表</string>
+         </property>
+         <layout class="QVBoxLayout" name="qVBoxLayout5">
+          <property name="leftMargin">
+           <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>9</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>9</number>
+          </property>
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="dictionary_status">
+            <property name="text">
+             <string>已加载 97142 个标签，339460 个不同中文词，74185 条标签说明。</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="qLabel13">
+            <property name="styleSheet">
+             <string notr="true">color: #666; padding: 8px;</string>
+            </property>
+            <property name="text">
+             <string>翻译不再依赖手工维护的两百多条词条。现在先查人工词条，没覆盖的片段交给一张社区维护的中文对照表，表里约十万个标签。匹配按四档从宽到严依次尝试：精确、片段、相似、组合，另有一档从标签的说明文字里反查。数据是 MIT 许可，可以随程序分发。</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="strict_box">
+            <property name="toolTip">
+             <string notr="true">相似档看字符重合度，组合档把输入切成两半各查一个标签再拼。
+两档覆盖面大，但偶尔给出看着不相关的标签。
+打开本项之后只认字面命中，结果更干净也更少。</string>
+            </property>
+            <property name="text">
+             <string>只用精确与片段匹配，不要相似与组合的结果</string>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="qHBoxLayout3">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <property name="spacing">
+             <number>6</number>
+            </property>
+            <item>
+             <widget class="QPushButton" name="qPushButton3">
+              <property name="text">
+               <string>刷新词表状态</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="dictionary_note">
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+              </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="qGroupBox7">
+         <property name="title">
+          <string>分级</string>
+         </property>
+         <layout class="QVBoxLayout" name="qVBoxLayout6">
+          <property name="leftMargin">
+           <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>9</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>9</number>
+          </property>
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="qLabel14">
+            <property name="text">
+             <string>当前档位：全年龄
+实际请求的分级：general、sensitive</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="qLabel15">
+            <property name="styleSheet">
+             <string notr="true">color: #666; padding: 8px;</string>
+            </property>
+            <property name="text">
+             <string>开关本体常驻检索页的可见区域，默认不勾选。这里是只读说明，避免出现第二个可以改动它的位置。两档划分见 DD-21。</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="qGroupBox8">
+         <property name="title">
+          <string>翻译接口</string>
+         </property>
+         <layout class="QVBoxLayout" name="qVBoxLayout7">
+          <property name="leftMargin">
+           <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>9</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>9</number>
+          </property>
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="qLabel16">
+            <property name="text">
+             <string>状态：未配置。本地词典可离线使用，接口为可选补充。</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="qLabel17">
+            <property name="styleSheet">
+             <string notr="true">color: #666; padding: 8px;</string>
+            </property>
+            <property name="text">
+             <string>接口设置、连接测试与成本提示属于翻译层实现范围。</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="qGroupBox9">
+         <property name="title">
+          <string>关于</string>
+         </property>
+         <layout class="QVBoxLayout" name="qVBoxLayout8">
+          <property name="leftMargin">
+           <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>9</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>9</number>
+          </property>
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="qLabel18">
+            <property name="text">
+             <string>PIC FINDER 版本 0.1.6</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="qLabel19">
+            <property name="styleSheet">
+             <string notr="true">color: #666; padding: 8px;</string>
+            </property>
+            <property name="text">
+             <string>图片版权归原作者所有。请勿再分发或商用。界面始终显示原帖链接与画师名，这是对作者的尊重，也是功能的一部分。</string>
+            </property>
+            <property name="wordWrap">
+             <bool>true</bool>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="spacer3">
+         <property name="orientation">
+          <enum>Qt::Orientation::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="qHBoxLayout4">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="qPushButton4">
+       <property name="text">
+        <string>重新读取图库统计</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="status">
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

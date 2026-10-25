@@ -1,0 +1,7 @@
+include work/dictionary/manifest.json
+include work/dictionary/common.json
+include work/dictionary/pose.json
+include work/dictionary/outfit.json
+include work/dictionary/prop.json
+include work/dictionary/scene.json
+include work/dictionary/zh/*.csv

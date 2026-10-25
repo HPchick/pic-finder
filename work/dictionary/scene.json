@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "category": "scene",
+  "dictionary_version": "2026.10.06",
+  "generated_by": "manual",
+  "reviewed": false,
+  "source_tag_file": "tags-danbooru-general-5000.json",
+  "entries": [
+    {
+      "term": "室外",
+      "tags": [
+        {
+          "tag": "outdoors",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "户外"
+      ]
+    },
+    {
+      "term": "室内",
+      "tags": [
+        {
+          "tag": "indoors",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "简单背景",
+      "tags": [
+        {
+          "tag": "simple_background",
+          "weight": 1.0
+        }
+      ],
+      "notes": "元标签，表示背景被简化"
+    },
+    {
+      "term": "白背景",
+      "tags": [
+        {
+          "tag": "white_background",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "黑背景",
+      "tags": [
+        {
+          "tag": "black_background",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "灰背景",
+      "tags": [
+        {
+          "tag": "grey_background",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "蓝背景",
+      "tags": [
+        {
+          "tag": "blue_background",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "透明背景",
+      "tags": [
+        {
+          "tag": "transparent_background",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "渐变背景",
+      "tags": [
+        {
+          "tag": "gradient_background",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "虚化背景",
+      "tags": [
+        {
+          "tag": "blurry_background",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "模糊背景"
+      ]
+    },
+    {
+      "term": "花纹背景",
+      "tags": [
+        {
+          "tag": "floral_background",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "花朵背景"
+      ]
+    },
+    {
+      "term": "天空",
+      "tags": [
+        {
+          "tag": "sky",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "蓝天",
+      "tags": [
+        {
+          "tag": "blue_sky",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "多云天空",
+      "tags": [
+        {
+          "tag": "cloudy_sky",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "星空",
+      "tags": [
+        {
+          "tag": "starry_sky",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "繁星夜空"
+      ]
+    },
+    {
+      "term": "云",
+      "tags": [
+        {
+          "tag": "cloud",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "云朵"
+      ]
+    },
+    {
+      "term": "夜晚",
+      "tags": [
+        {
+          "tag": "night",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "夜里"
+      ]
+    },
+    {
+      "term": "日落",
+      "tags": [
+        {
+          "tag": "sunset",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "夕阳"
+      ]
+    },
+    {
+      "term": "树",
+      "tags": [
+        {
+          "tag": "tree",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "棕榈树",
+      "tags": [
+        {
+          "tag": "palm_tree",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "森林",
+      "tags": [
+        {
+          "tag": "forest",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "树林"
+      ]
+    },
+    {
+      "term": "山",
+      "tags": [
+        {
+          "tag": "mountain",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "山脉"
+      ]
+    },
+    {
+      "term": "水",
+      "tags": [
+        {
+          "tag": "water",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "海",
+      "tags": [
+        {
+          "tag": "ocean",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "大海",
+        "海洋"
+      ]
+    },
+    {
+      "term": "海滩",
+      "tags": [
+        {
+          "tag": "beach",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "沙滩"
+      ]
+    },
+    {
+      "term": "水下",
+      "tags": [
+        {
+          "tag": "underwater",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "建筑",
+      "tags": [
+        {
+          "tag": "building",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "城市",
+      "tags": [
+        {
+          "tag": "city",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "都市"
+      ]
+    },
+    {
+      "term": "城市景观",
+      "tags": [
+        {
+          "tag": "cityscape",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "窗",
+      "tags": [
+        {
+          "tag": "window",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "窗户"
+      ]
+    },
+    {
+      "term": "门",
+      "tags": [
+        {
+          "tag": "door",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "楼梯",
+      "tags": [
+        {
+          "tag": "stairs",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "教室",
+      "tags": [
+        {
+          "tag": "classroom",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "卧室",
+      "tags": [
+        {
+          "tag": "bedroom",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "书架",
+      "tags": [
+        {
+          "tag": "bookshelf",
+          "weight": 1.0
+        }
+      ],
+      "notes": "也可视为道具"
+    }
+  ]
+}

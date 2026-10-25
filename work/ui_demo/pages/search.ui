@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchPage</class>
+ <widget class="QWidget" name="SearchPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1262</width>
+    <height>833</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="qVBoxLayout">
+   <property name="leftMargin">
+    <number>9</number>
+   </property>
+   <property name="topMargin">
+    <number>9</number>
+   </property>
+   <property name="rightMargin">
+    <number>9</number>
+   </property>
+   <property name="bottomMargin">
+    <number>9</number>
+   </property>
+   <property name="spacing">
+    <number>6</number>
+   </property>
+   <item>
+    <layout class="QHBoxLayout" name="qHBoxLayout">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="qLabel">
+       <property name="text">
+        <string>类别：</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="category_buttons_pose">
+       <property name="text">
+        <string>人体姿势</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="category_buttons_outfit">
+       <property name="text">
+        <string>服装</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="category_buttons_prop">
+       <property name="text">
+        <string>道具</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="category_buttons_scene">
+       <property name="text">
+        <string>场景建筑</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="spacer">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="r18_box">
+       <property name="toolTip">
+        <string notr="true">关闭时请求全年龄内容，含泳装与轻度暗示。
+开启时会一并请求明显暗示与明确成人内容，需要确认。</string>
+       </property>
+       <property name="text">
+        <string>包含 R18 内容</string>
+       </property>
+       <property name="checked">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="hint">
+     <property name="styleSheet">
+      <string notr="true">color: #666; padding: 8px;</string>
+     </property>
+     <property name="text">
+      <string>人体姿势。主用户的主力需求，检索词偏结构与姿态。</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="qHBoxLayout2">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <item>
+      <widget class="QLineEdit" name="input_box">
+       <property name="placeholderText">
+        <string>描述你需要的参考，例如：站姿 侧视 回眸</string>
+       </property>
+       <property name="text">
+        <string>真机伶</string>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="translate_button">
+       <property name="text">
+        <string>翻译</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="qGroupBox">
+     <property name="title">
+      <string>翻译结果</string>
+     </property>
+     <layout class="QVBoxLayout" name="qVBoxLayout2">
+      <property name="leftMargin">
+       <number>9</number>
+      </property>
+      <property name="topMargin">
+       <number>9</number>
+      </property>
+      <property name="rightMargin">
+       <number>9</number>
+      </property>
+      <property name="bottomMargin">
+       <number>9</number>
+      </property>
+      <property name="spacing">
+       <number>4</number>
+      </property>
+      <item>
+       <widget class="QScrollArea" name="tag_scroll">
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>190</height>
+         </size>
+        </property>
+        <widget class="QWidget" name="tag_container">
+         <layout class="QGridLayout" name="tag_flow">
+          <property name="leftMargin">
+           <number>4</number>
+          </property>
+          <property name="topMargin">
+           <number>4</number>
+          </property>
+          <property name="rightMargin">
+           <number>4</number>
+          </property>
+          <property name="bottomMargin">
+           <number>4</number>
+          </property>
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="qPushButton">
+            <property name="toolTip">
+             <string notr="true">第 1 位　来源：本地词典　权重：0.63
+对应中文：真机伶
+当前会被检索式采用（只取前 2 个）。
+点击移除该标签</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton { background-color: #dff2df; }</string>
+            </property>
+            <property name="text">
+             <string>① curren_chan_(umamusume)　✕</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="qPushButton2">
+            <property name="toolTip">
+             <string notr="true">第 2 位　来源：本地词典　权重：0.60
+对应中文：真机伶
+当前会被检索式采用（只取前 2 个）。
+点击移除该标签</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton { background-color: #dff2df; }</string>
+            </property>
+            <property name="text">
+             <string>② curren_chan_(fille_eclair)_(umamusume)　✕</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="qPushButton3">
+            <property name="toolTip">
+             <string notr="true">第 3 位　来源：本地词典　权重：0.57
+对应中文：真机伶
+当前排在 2 名之外，不会被检索式采用。删掉前面的标签就能让它顶上来。
+点击移除该标签</string>
+            </property>
+            <property name="text">
+             <string>③ curren_chan_(ma_cherie_of_the_new_moon)_(umamusume)　✕</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="qPushButton4">
+            <property name="toolTip">
+             <string notr="true">第 4 位　来源：本地词典　权重：0.57
+对应中文：真机伶
+当前排在 2 名之外，不会被检索式采用。删掉前面的标签就能让它顶上来。
+点击移除该标签</string>
+            </property>
+            <property name="text">
+             <string>④ curren_chan_(casual)_(umamusume)　✕</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="qPushButton5">
+            <property name="toolTip">
+             <string notr="true">第 5 位　来源：本地词典　权重：0.53
+对应中文：真机伶
+当前排在 2 名之外，不会被检索式采用。删掉前面的标签就能让它顶上来。
+点击移除该标签</string>
+            </property>
+            <property name="text">
+             <string>⑤ curren_chan_(umamusume)_(cosplay)　✕</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QWidget" name="qWidget">
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QWidget" name="qWidget2">
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QWidget" name="qWidget3">
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="tag_rank_hint">
+        <property name="text">
+         <string>标签按可信度排序，序号越小越可能被采用。检索式只取前几个，点标签可以删掉不要的。</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="qHBoxLayout3">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <property name="spacing">
+         <number>4</number>
+        </property>
+        <item>
+         <widget class="QLineEdit" name="add_box">
+          <property name="placeholderText">
+           <string>手工补充标签，例如 looking_at_viewer</string>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="qPushButton6">
+          <property name="text">
+           <string>添加</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="qPushButton7">
+          <property name="text">
+           <string>清空</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="tag_hint">
+        <property name="text">
+         <string>已翻出 5 个标签。</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="qGroupBox2">
+     <property name="title">
+      <string>检索式与检索条件</string>
+     </property>
+     <layout class="QVBoxLayout" name="qVBoxLayout3">
+      <property name="leftMargin">
+       <number>9</number>
+      </property>
+      <property name="topMargin">
+       <number>9</number>
+      </property>
+      <property name="rightMargin">
+       <number>9</number>
+      </property>
+      <property name="bottomMargin">
+       <number>9</number>
+      </property>
+      <property name="spacing">
+       <number>4</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="query_label">
+        <property name="styleSheet">
+         <string notr="true">font-family: Consolas, monospace;</string>
+        </property>
+        <property name="text">
+         <string>curren_chan_(umamusume) curren_chan_(fille_eclair)_(umamusume)</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="query_note">
+        <property name="text">
+         <string>共 5 个标签，检索式按设置只取权重最高的 2 个。　分级：全年龄　本地黑名单：loli、shota</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="qHBoxLayout4">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <property name="spacing">
+         <number>4</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="qLabel2">
+          <property name="text">
+           <string>来源：</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="site_boxes_danbooru">
+          <property name="toolTip">
+           <string notr="true">Danbooru（danbooru）
+接口类型：danbooru
+速率上限：每秒 1.00 次</string>
+          </property>
+          <property name="text">
+           <string>Danbooru</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="site_boxes_yandere">
+          <property name="toolTip">
+           <string notr="true">yande.re（yandere）
+接口类型：moebooru
+速率上限：每秒 1.00 次</string>
+          </property>
+          <property name="text">
+           <string>yande.re</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="site_boxes_konachan">
+          <property name="toolTip">
+           <string notr="true">Konachan（konachan）
+接口类型：moebooru
+速率上限：每秒 1.00 次</string>
+          </property>
+          <property name="text">
+           <string>Konachan</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="site_boxes_metmuseum">
+          <property name="toolTip">
+           <string notr="true">大都会艺术博物馆（metmuseum）
+接口类型：museum
+速率上限：每秒 0.50 次</string>
+          </property>
+          <property name="text">
+           <string>大都会艺术博物馆</string>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="spacer2">
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="qLabel3">
+          <property name="text">
+           <string>排序：</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="sort_box">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <item>
+           <property name="text">
+            <string>综合</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>匹配度</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>人气</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>分辨率</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>时间</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="search_button">
+          <property name="text">
+           <string>检索</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="qHBoxLayout5">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="result_label">
+       <property name="text">
+        <string>尚未检索。</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="qPushButton8">
+       <property name="text">
+        <string>全选</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="qPushButton9">
+       <property name="text">
+        <string>取消全选</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="selected_label">
+       <property name="text">
+        <string>已选 0 张</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QWidget" name="wall">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <layout class="QVBoxLayout" name="qVBoxLayout4">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <item>
+       <widget class="QScrollArea" name="qScrollArea">
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents">
+         <layout class="QGridLayout" name="qGridLayout">
+          <property name="leftMargin">
+           <number>9</number>
+          </property>
+          <property name="topMargin">
+           <number>9</number>
+          </property>
+          <property name="rightMargin">
+           <number>9</number>
+          </property>
+          <property name="bottomMargin">
+           <number>9</number>
+          </property>
+          <property name="spacing">
+           <number>6</number>
+          </property>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="qHBoxLayout6">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="prev_button">
+       <property name="text">
+        <string>上一页</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="next_button">
+       <property name="text">
+        <string>下一页</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="page_label">
+       <property name="text">
+        <string>第 0 / 0 页</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="loaded_label">
+       <property name="text">
+        <string>已加载 0 张</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="qLabel4">
+       <property name="text">
+        <string>每页显示</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="per_page_box">
+       <property name="currentIndex">
+        <number>3</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>15 张</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>30 张</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>50 张</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>100 张</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>200 张</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>500 张</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <spacer name="spacer3">
+       <property name="orientation">
+        <enum>Qt::Orientation::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="qHBoxLayout7">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="download_button">
+       <property name="toolTip">
+        <string notr="true">把勾选的图下载到图库目录，并按归档规则建目录。
+下载在后台进行，界面不会卡住。</string>
+       </property>
+       <property name="text">
+        <string>下载所选</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QProgressBar" name="progress">
+       <property name="value">
+        <number>-1</number>
+       </property>
+       <property name="minimum">
+        <number>0</number>
+       </property>
+       <property name="maximum">
+        <number>100</number>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>200</width>
+         <height>0</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="speed_label">
+       <property name="styleSheet">
+        <string notr="true">color: #444;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="download_note">
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="retry_button">
+       <property name="text">
+        <string>重试失败项</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cancel_button">
+       <property name="text">
+        <string>取消</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

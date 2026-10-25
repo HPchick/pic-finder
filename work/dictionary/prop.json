@@ -1,0 +1,556 @@
+{
+  "schema_version": 1,
+  "category": "prop",
+  "dictionary_version": "2026.10.06",
+  "generated_by": "manual",
+  "reviewed": false,
+  "source_tag_file": "tags-danbooru-general-5000.json",
+  "entries": [
+    {
+      "term": "盔甲",
+      "tags": [
+        {
+          "tag": "armor",
+          "weight": 1.0
+        }
+      ],
+      "notes": "既可视为穿着也可视为道具，已同时归入两类"
+    },
+    {
+      "term": "日本铠甲",
+      "tags": [
+        {
+          "tag": "japanese_armor",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "剑",
+      "tags": [
+        {
+          "tag": "sword",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "持剑",
+      "tags": [
+        {
+          "tag": "holding_sword",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "拿着剑"
+      ]
+    },
+    {
+      "term": "日本刀",
+      "tags": [
+        {
+          "tag": "katana",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "武士刀"
+      ]
+    },
+    {
+      "term": "刀",
+      "tags": [
+        {
+          "tag": "knife",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "小刀"
+      ]
+    },
+    {
+      "term": "匕首",
+      "tags": [
+        {
+          "tag": "dagger",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "短剑"
+      ]
+    },
+    {
+      "term": "长枪",
+      "tags": [
+        {
+          "tag": "spear",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "枪矛"
+      ]
+    },
+    {
+      "term": "弓",
+      "tags": [
+        {
+          "tag": "bow_(weapon)",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "弓箭"
+      ]
+    },
+    {
+      "term": "箭",
+      "tags": [
+        {
+          "tag": "arrow_(projectile)",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "枪械",
+      "tags": [
+        {
+          "tag": "gun",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "枪"
+      ]
+    },
+    {
+      "term": "手枪",
+      "tags": [
+        {
+          "tag": "handgun",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "持枪",
+      "tags": [
+        {
+          "tag": "holding_gun",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "盾",
+      "tags": [
+        {
+          "tag": "shield",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "盾牌"
+      ]
+    },
+    {
+      "term": "武器",
+      "tags": [
+        {
+          "tag": "weapon",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "持武器",
+      "tags": [
+        {
+          "tag": "holding_weapon",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "法杖",
+      "tags": [
+        {
+          "tag": "staff",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "手杖"
+      ]
+    },
+    {
+      "term": "魔杖",
+      "tags": [
+        {
+          "tag": "wand",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "长柄武器",
+      "tags": [
+        {
+          "tag": "holding_polearm",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "持长柄武器"
+      ]
+    },
+    {
+      "term": "雨伞",
+      "tags": [
+        {
+          "tag": "umbrella",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "伞"
+      ]
+    },
+    {
+      "term": "持伞",
+      "tags": [
+        {
+          "tag": "holding_umbrella",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "书",
+      "tags": [
+        {
+          "tag": "book",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "打开的书",
+      "tags": [
+        {
+          "tag": "open_book",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "拿书",
+      "tags": [
+        {
+          "tag": "holding_book",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "杯子",
+      "tags": [
+        {
+          "tag": "cup",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "茶杯",
+      "tags": [
+        {
+          "tag": "teacup",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "拿杯子",
+      "tags": [
+        {
+          "tag": "holding_cup",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "瓶子",
+      "tags": [
+        {
+          "tag": "bottle",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "包",
+      "tags": [
+        {
+          "tag": "bag",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "袋子"
+      ]
+    },
+    {
+      "term": "手提包",
+      "tags": [
+        {
+          "tag": "handbag",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "单肩包",
+      "tags": [
+        {
+          "tag": "shoulder_bag",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "书包",
+      "tags": [
+        {
+          "tag": "school_bag",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "花",
+      "tags": [
+        {
+          "tag": "flower",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "玫瑰",
+      "tags": [
+        {
+          "tag": "rose",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "红玫瑰",
+      "tags": [
+        {
+          "tag": "red_rose",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "白玫瑰",
+      "tags": [
+        {
+          "tag": "white_rose",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "持花",
+      "tags": [
+        {
+          "tag": "holding_flower",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "捧花",
+      "tags": [
+        {
+          "tag": "holding_bouquet",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "扇子",
+      "tags": [
+        {
+          "tag": "hand_fan",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "折扇",
+      "tags": [
+        {
+          "tag": "folding_fan",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "灯笼",
+      "tags": [
+        {
+          "tag": "lantern",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "蜡烛",
+      "tags": [
+        {
+          "tag": "candle",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "篮子",
+      "tags": [
+        {
+          "tag": "basket",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "乐器",
+      "tags": [
+        {
+          "tag": "instrument",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "吉他",
+      "tags": [
+        {
+          "tag": "guitar",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "演奏乐器",
+      "tags": [
+        {
+          "tag": "playing_instrument",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "手机",
+      "tags": [
+        {
+          "tag": "holding_phone",
+          "weight": 1.0
+        }
+      ],
+      "notes": "标签意为拿着手机，中文词已按此调整"
+    },
+    {
+      "term": "麦克风",
+      "tags": [
+        {
+          "tag": "holding_microphone",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "玩偶",
+      "tags": [
+        {
+          "tag": "holding_stuffed_toy",
+          "weight": 1.0
+        }
+      ],
+      "aliases": [
+        "抱玩偶"
+      ]
+    },
+    {
+      "term": "抱着动物",
+      "tags": [
+        {
+          "tag": "holding_animal",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "端盘子",
+      "tags": [
+        {
+          "tag": "holding_plate",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "托盘",
+      "tags": [
+        {
+          "tag": "holding_tray",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "拿食物",
+      "tags": [
+        {
+          "tag": "holding_food",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "拿水果",
+      "tags": [
+        {
+          "tag": "holding_fruit",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "term": "持物",
+      "tags": [
+        {
+          "tag": "holding",
+          "weight": 1.0
+        }
+      ],
+      "notes": "通用持物标签，命中面很广"
+    },
+    {
+      "term": "搬运",
+      "tags": [
+        {
+          "tag": "carrying",
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}
