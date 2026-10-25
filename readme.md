@@ -10,15 +10,14 @@ PIC FINDER 是面向画师的参考图检索与归档工具。本文档是其设
 
 ## 快速开始
 
-当前仓库提供源码。新克隆的仓库请按下方说明运行。
-0.1.7 的便携包和安装程序仅保存在本机，尚未作为正式发行版发布。
-启动自检已通过，但界面冒烟测试返回退出码 1。
-详情见[打包记录](release-0.1.7.md)。
+从[首次 Release：0.1.7](https://github.com/HPchick/pic-finder/releases/tag/v0.1.7) 下载安装程序或便携包。
+安装程序已通过人工验证；两个程序包均不要求安装 Python。
+发行包的核验信息与历史构建记录见[打包记录](release-0.1.7.md)。
 
 | 产物 | 用法 | 适合谁 |
 |---|---|---|
-| `PIC-FINDER-Setup-0.1.7.exe` | 本地安装程序 | 使用常规程序进行安装 |
-| `PIC-FINDER-0.1.7.zip` | 本地便携包 | 解压即用 |
+| [PIC-FINDER-Setup-0.1.7.exe](https://github.com/HPchick/pic-finder/releases/download/v0.1.7/PIC-FINDER-Setup-0.1.7.exe) | 安装程序 | 使用常规程序进行安装 |
+| [PIC-FINDER-0.1.7.zip](https://github.com/HPchick/pic-finder/releases/download/v0.1.7/PIC-FINDER-0.1.7.zip) | 便携包 | 解压即用 |
 
 两个产物都不需要管理员权限。安装程序固定按当前用户安装，默认装在用户目录。
 
